@@ -11,4 +11,4 @@ A little python script to read values from a Adafruit DHT11 sensor and to store 
   
 Your full command will look something like this:
 
-`url=127.0.0.1 file_path=my_file.xlsx id=living_room sleep=600 pin=23 python3 DHT11-Reader.py`
+`url=127.0.0.1 file_path=my_file.xlsx id=living_room sleep=600 pin=23 python3 DHT11-Sensor-Handler.py`
