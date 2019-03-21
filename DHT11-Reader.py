@@ -7,11 +7,11 @@ import requests
 import os
 from openpyxl import Workbook
 
-file_path = os.getenv('file','dump.xls')
+file_path = os.getenv('file_path','dump.xls')
 url = os.getenv('url','127.0.0.1:8000/entries')
 id = os.getenv('id','default')
-pin = os.getenv('pin',23)
-sleep_time = os.getenv('sleep',300)
+pin = int(os.getenv('pin',23))
+sleep_time = int(os.getenv('sleep',300))
 
 print(file_path)
 print(url)
