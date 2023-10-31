@@ -1,8 +1,11 @@
 ## DHT11-Sensor-Handler
-A little python script to read values from a Adafruit DHT11 sensor and to store them in a Excel spreadsheet and send them to a server via POST
+
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+A python script to read values from Adafruit DHT11 sensors and to store them in an Excel spreadsheet and/or send them to a server via POST
 
 ## Usage
-* Run with python3 and add the following environment variables:
+Run with python3 and add the following environment variables:
   * `url=<your_server_url>` defaults to 127.0.0.1 if not specified
   * `file_path=<your_file_path>.xlsx` the path the Excel spreadsheet will be stored. Defaults to `./dump.xlsx` 
   * `id=<your_pi_id>` is sent with POST requests to the server. Ignore unless you use my nodejs API for this application found [here](https://github.com/TehMightyPotato/DHT11-Database-API)
